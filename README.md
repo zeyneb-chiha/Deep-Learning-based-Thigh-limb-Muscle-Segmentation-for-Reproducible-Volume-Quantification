@@ -3,6 +3,8 @@ In this project, we present a deep learning framework for hamstring Muscles Segm
 Magnetic Resonance Images (MRI) scans coming from Elite and Normal participants. Our goal is to
 quantify the volume of each sub-structure of the hamstring muscles as a mean to support monitoring
 of athletes conditions, such as detecting injuries and their performance level.
+![Screenshot from 2021-10-27 21-25-23](https://user-images.githubusercontent.com/53334878/139141826-f48b9047-632b-4e0b-b8f7-55582fe1381a.png)
+
 To meet our goal, we follow recent state of the art methods in the medical imaging domain. In particular,
 our method is based on recent work published by SIMS team, the Interactive Few-Shot Siamese Network
 (IFSS-Net) [1] at LS2N, ECN, where my internship took place. However, IFSS-Net model is applied on
