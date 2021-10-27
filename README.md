@@ -6,8 +6,7 @@ of athletes conditions, such as detecting injuries and their performance level.
 
 ![Screenshot from 2021-10-27 21-25-23](https://user-images.githubusercontent.com/53334878/139141826-f48b9047-632b-4e0b-b8f7-55582fe1381a.png)
 
-To meet our goal, we follow recent state of the art methods in the medical imaging domain. In particular,
-our method is based on recent work published by SIMS team, the Interactive Few-Shot Siamese Network
+Our method is based on recent work published by SIMS team, the Interactive Few-Shot Siamese Network
 (IFSS-Net) (Dawood et al., [2020](https://arxiv.org/pdf/2011.13246.pdf)).
  at LS2N, ECN, where my internship took place. However, IFSS-Net model is applied on
 low-limb muscle using images coming from Ultrasound (US) machine.
@@ -18,11 +17,8 @@ to correct or confirm the segmentation performance.
 
 ![Screenshot from 2021-10-27 21-26-00](https://user-images.githubusercontent.com/53334878/139141851-6be280d4-516d-4549-a6aa-4792d837be98.png)
 
-Since IFSS-net is a method that is built using advanced deep learning methods, in this thesis: I had
-to study the required background, review state of the art, study in details the IFSS-net model and to
-introduce the uncertainty measure. Apart from this, data manipulation and understanding is among the
-most important part to make sure the success of the IFSS-net model and adaption. Hence, we developed
-a pre-processing that crop and normalize the MR volumes, separate the left and the right legs from each
+After model training and during the test time we activate Dropout provability around 0.1 and 0.2, here a prediction is done for x times, so at each forward pass through the trained neural network a Monte Carlo sample from the posterior distribution is generated. Then we compute the average prediction to have the final map and we apply the standard deviation (STD) over the x generated maps to measure the spread of the distribution and obtain the uncertainty information.
+We developed a pre-processing that crop and normalize the MR volumes, separate the left and the right legs from each
 scan and validate if the ground truth segmentation of each participant was correct.
 We validate our baseline framework over the 4 targeted muscles, we obtained a Dice Coefficient Score
 (DSC) value around 66%. The semi-supervised framework was validate just over the femoris muscles
