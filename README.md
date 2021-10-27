@@ -8,7 +8,8 @@ of athletes conditions, such as detecting injuries and their performance level.
 
 To meet our goal, we follow recent state of the art methods in the medical imaging domain. In particular,
 our method is based on recent work published by SIMS team, the Interactive Few-Shot Siamese Network
-(IFSS-Net) [1] at LS2N, ECN, where my internship took place. However, IFSS-Net model is applied on
+(IFSS-Net) (Dawood et al., [2020](https://arxiv.org/pdf/2011.13246.pdf)).
+ at LS2N, ECN, where my internship took place. However, IFSS-Net model is applied on
 low-limb muscle using images coming from Ultrasound (US) machine.
 In this project, our role is to adapt the IFSS-net from US to MR modality and to introduce uncertainty
 measure to the model. The uncertainty measure will be a tool to show the medical expert where the
