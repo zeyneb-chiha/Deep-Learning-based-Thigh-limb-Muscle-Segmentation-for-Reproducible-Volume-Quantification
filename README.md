@@ -1,4 +1,4 @@
-# MRI--Semi-supervised-3D-Segmentation
+# Deep Learning-based Thigh-limb Muscle Segmentation for Reproducible Volume Quantification
 In this project, we present a deep learning framework for hamstring Muscles Segmentation using
 Magnetic Resonance Images (MRI) scans coming from Elite and Normal participants. Our goal is to
 quantify the volume of each sub-structure of the hamstring muscles as a mean to support monitoring
