@@ -4,7 +4,7 @@ Magnetic Resonance Images (MRI) scans coming from Elite and Normal participants.
 quantify the volume of each sub-structure of the hamstring muscles as a mean to support monitoring
 of athletes conditions, such as detecting injuries and their performance level.
 
-![Screenshot from 2021-10-27 21-25-23](https://user-images.githubusercontent.com/53334878/139141826-f48b9047-632b-4e0b-b8f7-55582fe1381a.png)
+![Screenshot from 2021-10-27 21-25-23](https://user-images.githubusercontent.com/53334878/139141826-f48b9047-632b-4e0b-b8f7-55582fe1381a.png) ![Screenshot from 2021-10-27 21-50-23](https://user-images.githubusercontent.com/53334878/139144937-808e50db-d709-4f33-82f9-a9209a306a0c.png)
 
 Our method is based on recent work published by SIMS team, the Interactive Few-Shot Siamese Network
 (IFSS-Net) (Dawood et al., [2020](https://arxiv.org/pdf/2011.13246.pdf)).
